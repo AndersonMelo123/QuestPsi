@@ -57,7 +57,7 @@ if (
 
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
+  
   <!--icones -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Questionário Psicológico</title>
@@ -145,7 +145,6 @@ if (
                       </div>
                     </div>
 
-
                     <div class="col s12">
                       <div class="center">
                         <br>
@@ -177,3 +176,4 @@ if (
 
   </main>
 </body>
+</html>

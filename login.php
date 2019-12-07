@@ -1,10 +1,10 @@
 <?php
-  session_start();
+session_start();
 
-  if(isset ($_SESSION['login'])){
-    header ("Location: lista.php");
-    die();
-  }
+if (isset($_SESSION['login'])) {
+  header("Location: lista.php");
+  die();
+}
 ?>
 
 <!DOCTYPE html>
@@ -26,6 +26,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
   <style type="text/css">
     p {
@@ -56,18 +58,24 @@
     i {
       align-items: center;
     }
-    fieldset{
-      color: #26a69a;
-    }
+
     #direita {
       position: absolute;
       top: 1.5%;
       right: 3%;
     }
 
+    #bt_direita {
+      position: relative;
+      top: 1.5%;
+      left: 33%;
+    }
+
     fieldset {
       margin-left: 150px;
       margin-right: 150px;
+      border-color: #26a69a;
+      border-radius: 5%;
     }
   </style>
 
@@ -101,10 +109,10 @@
             </div>
 
             <div id="direita">
-                <button class="btn waves-effect teal lighten-1" type="button" onClick="goHome()">
-                  <i class="fa fa-home"></i>
-                </button>
-              </div>
+              <button class="btn waves-effect teal lighten-1" type="button" onClick="goHome()">
+                <i class="fa fa-home"></i>
+              </button>
+            </div>
 
             <div class="card-stacked #fec826">
               <div class="card-action center-align">
@@ -131,7 +139,15 @@
                         <input class="input" name="senha" type="password" aria-label="Senha" placeholder="Senha">
                       </div>
 
-                      <input type="submit" value="Entrar" class="btn btn-primary teal darken-3">
+                      <br>
+                      <div id="bt_direita">
+                        <button class="btn waves-effect teal darken-3" type="submit">Entrar
+                          <i class="fa fa-sign-in-alt"></i>
+                        </button>
+
+                      </div>
+
+
 
                     </fieldset>
                   </form>
@@ -140,7 +156,7 @@
 
               <br>
               <br>
-            
+
               <div class="card-action center-align">
                 &nbsp;&nbsp;&nbsp;<a id="logo-container" class="brand-logo"> <img src="img/logo.png" width="40" alt="logo center-align"></a>
 

@@ -481,13 +481,13 @@
                     <h5>13. Sinto-me satisfeito com o meu sono.</h5>
                     <p>
                       <label>
-                        <input name="group13" value="1" type="radio" required />
+                        <input name="group13" value="0" type="radio" required />
                         <span class="black-text">Concordo Plenamente</span>
                       </label>
                     </p>
                     <p>
                       <label>
-                        <input name="group13" value="1" type="radio" required />
+                        <input name="group13" value="0" type="radio" required />
                         <span class="black-text">Concordo Parcialmente</span>
                       </label>
                     </p>
@@ -499,13 +499,13 @@
                     </p>
                     <p>
                       <label>
-                        <input name="group13" value="0" type="radio" required />
+                        <input name="group13" value="1" type="radio" required />
                         <span class="black-text">Discordo Parcialmente</span>
                       </label>
                     </p>
                     <p>
                       <label>
-                        <input name="group13" value="0" type="radio" required />
+                        <input name="group13" value="1" type="radio" required />
                         <span class="black-text">Discordo Plenamente</span>
                       </label>
                     </p>
@@ -823,13 +823,13 @@
                     <h5>22. Tenho interesse por atividades sexuais.</h5>
                     <p>
                       <label>
-                        <input name="group22" value="1" type="radio" required />
+                        <input name="group22" value="0" type="radio" required />
                         <span class="black-text">Concordo Plenamente</span>
                       </label>
                     </p>
                     <p>
                       <label>
-                        <input name="group22" value="1" type="radio" required />
+                        <input name="group22" value="0" type="radio" required />
                         <span class="black-text">Concordo Parcialmente</span>
                       </label>
                     </p>
@@ -841,13 +841,13 @@
                     </p>
                     <p>
                       <label>
-                        <input name="group22" value="0" type="radio" required />
+                        <input name="group22" value="1" type="radio" required />
                         <span class="black-text">Discordo Parcialmente</span>
                       </label>
                     </p>
                     <p>
                       <label>
-                        <input name="group22" value="0" type="radio" required />
+                        <input name="group22" value="1" type="radio" required />
                         <span class="black-text">Discordo Plenamente</span>
                       </label>
                     </p>
